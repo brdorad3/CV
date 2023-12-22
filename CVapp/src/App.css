@@ -1,5 +1,8 @@
 .app{
   display: flex;
+  width: 100%;
+  max-width: 100vw;
+  justify-content: space-around;
 }
 .sidebar{
   display: block;
@@ -7,4 +10,32 @@
 .sidebott{
   display: flex;
   flex-direction: column;
+}
+
+button{
+  align-self: start;
+}
+.all{
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+.gril{
+  max-width: 600px;
+  width: 100%;
+  background-color: rgb(172, 165, 165);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img{
+  min-width: 22px;
+}
+.phones, .emails{
+  display: flex;
+}
+.conts{
+  display: flex;
+  gap: 150px;
 }

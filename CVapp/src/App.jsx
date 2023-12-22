@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Sidebar from './sidebar'
-
+import Sidebar from './formapp'
+import Main from './cv'
 import './App.css'
 
 function App() {
@@ -10,7 +10,8 @@ function App() {
   return (
     <>
     <div className="app">
-    <Sidebar></Sidebar>
+    <Sidebar/>
+    
   </div>
     </>
   )
